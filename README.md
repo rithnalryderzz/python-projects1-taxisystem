@@ -67,3 +67,8 @@ What I did to improve
 
 I later improved this project by adding input validation, taxi types,
 and functions to make the code more structured and realistic.
+
+I upgraded this project to ensure every generated password follows strong
+security rules, including uppercase letters, lowercase letters, numbers, and
+special characters. This helped me understand how secure passwords are designed
+in real systems.
