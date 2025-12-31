@@ -55,9 +55,11 @@ It also helped me practise logical thinking and writing conditions in Python.
  Password Generator
 
  What I built
+
 A password generator that creates a random, secure password based on a length
 chosen by
 
 What I did to improve
+
 I later improved this project by adding input validation, taxi types,
 and functions to make the code more structured and realistic.
