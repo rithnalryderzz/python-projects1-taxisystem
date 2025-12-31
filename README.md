@@ -1,10 +1,9 @@
- Taxi system Python Projects 🚀
+Taxi system Python Projects 
  
 I built these projects to practise Python fundamentals, problem-solving,
 and basic security concepts while learning how real-world systems work.
 
-
-## 🚕 Simple Taxi Booking System
+Simple Taxi Booking System
 
 What I built
 A command-line taxi booking system that calculates the total fare based on the
@@ -28,9 +27,7 @@ Skills used
 - User input and output
 - Simple calculations
 
----
-
-🔐 Password Strength Checker
+Password Strength Checker
 
  What I built
 A password strength checker that tells the user whether a password is **weak**,
@@ -55,8 +52,7 @@ It also helped me practise logical thinking and writing conditions in Python.
 - Cybersecurity fundamentals
 - Input validation
 
----
- 🔑 Password Generator
+ Password Generator
 
  What I built
 A password generator that creates a random, secure password based on a length
