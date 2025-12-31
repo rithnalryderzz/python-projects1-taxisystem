@@ -72,3 +72,7 @@ I upgraded this project to ensure every generated password follows strong
 security rules, including uppercase letters, lowercase letters, numbers, and
 special characters. This helped me understand how secure passwords are designed
 in real systems.
+
+I improved this project so it gives clear feedback on why a password is weak and
+suggests how to make it stronger. This helped me understand real-world password
+validation.
