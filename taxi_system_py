@@ -1,0 +1,13 @@
+print("🚕 Welcome to Simple Taxi System")
+
+base_fare = 3.00
+cost_per_km = 2.00
+
+distance = float(input("Enter distance in km: "))
+
+total_fare = base_fare + (distance * cost_per_km)
+
+print("\n--- Booking Summary ---")
+print(f"Distance: {distance} km")
+print(f"Total Fare: £{total_fare:.2f}")
+print("Thank you for booking!")
