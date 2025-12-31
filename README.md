@@ -6,6 +6,7 @@ and basic security concepts while learning how real-world systems work.
 Simple Taxi Booking System
 
 What I built
+
 A command-line taxi booking system that calculates the total fare based on the
 distance travelled.
 
@@ -13,6 +14,7 @@ The program asks the user for the distance in kilometres and then calculates
 the final cost using a base fare and a cost per kilometre.
 
 Why I built it
+
 I wanted to practise:
 - Taking user input
 - Using variables and calculations
@@ -30,6 +32,7 @@ Skills used
 Password Strength Checker
 
  What I built
+
 A password strength checker that tells the user whether a password is **weak**,
 **medium**, or **strong** based on common security rules.
 
@@ -41,6 +44,7 @@ The program checks:
 - Special characters
 
  Why I built it
+
 I am interested in cybersecurity, and this project helped me understand
 what makes a password secure and why weak passwords are a risk.
 
