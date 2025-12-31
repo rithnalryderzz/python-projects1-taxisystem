@@ -1,13 +1,48 @@
-print("🚕 Welcome to Simple Taxi System")
+def calculate_fare(distance, taxi_type):
+    base_fares = {
+        "standard": 3.0,
+        "premium": 5.0
+    }
 
-base_fare = 3.00
-cost_per_km = 2.00
+    cost_per_km = {
+        "standard": 2.0,
+        "premium": 3.0
+    }
 
-distance = float(input("Enter distance in km: "))
+    return base_fares[taxi_type] + (distance * cost_per_km[taxi_type])
 
-total_fare = base_fare + (distance * cost_per_km)
+
+print("🚕 Welcome to Simple Taxi Booking System")
+
+while True:
+    try:
+        distance = float(input("Enter distance in km: "))
+        if distance <= 0:
+            print("Distance must be greater than 0.")
+            continue
+        break
+    except ValueError:
+        print("Please enter a valid number.")
+
+print("\nChoose taxi type:")
+print("1. Standard")
+print("2. Premium")
+
+choice = input("Enter 1 or 2: ")
+
+if choice == "1":
+    taxi_type = "standard"
+elif choice == "2":
+    taxi_type = "premium"
+else:
+    print("Invalid choice. Defaulting to Standard.")
+    taxi_type = "standard"
+
+fare = calculate_fare(distance, taxi_type)
 
 print("\n--- Booking Summary ---")
+print(f"Taxi Type: {taxi_type.capitalize()}")
 print(f"Distance: {distance} km")
-print(f"Total Fare: £{total_fare:.2f}")
+print(f"Total Fare: £{fare:.2f}")
 print("Thank you for booking!")
+
